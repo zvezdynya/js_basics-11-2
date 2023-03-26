@@ -1,0 +1,101 @@
+body {
+    font-family: 'Roboto';
+    margin: 0 auto;
+    background-color: rgba(211, 208, 208, 0.483);
+}
+
+h1 {
+    padding-left: 50px;
+}
+
+.shopping_list article {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    padding: 15px 30px;
+    margin: 0 0 10px;
+    width: 55vw;
+    border-top: 1px solid rgb(208, 206, 206);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0px 30px;
+}
+
+.list_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul.description li:first-child {
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color:rgba(39, 39, 39, 0.8);
+}
+
+.description {
+    width: 80%;
+    font-size: 15px;
+    font-weight: 500;
+    color:rgba(211, 208, 208, 0.9);
+}
+
+
+.price_block {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3px 0;
+    font-size: 14px;
+}
+
+.discount_price {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.price_block :first-child {
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color:rgba(39, 39, 39, 0.8);
+}
+
+article img {
+    height: 150px;
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 3px 0;
+}
+
+input {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    padding-top: 10px;
+}
+
+.btn-discount {
+    width: 230px;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color:rgba(39, 39, 39, 0.8);
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, rgb(113, 193, 207), rgb(208, 223, 225));
+}
+
+p {
+    margin: -5px -5px 0 0;
+    font-size: 12px;
+    font-weight: 600;
+    color:rgba(39, 39, 39, 0.8);
+}

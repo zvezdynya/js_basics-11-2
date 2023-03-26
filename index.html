@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="backet_name">Корзина</h1>
+        <div class="list_block">
+            <section class="shopping_list">
+                <h2 class="name_section">Товары</h2>
+                <article>
+                    <img src="https://ir.ozone.ru/s3/multimedia-x/wc200/6385950993.jpg" alt="" class="img_article">
+                    <ul class="description">
+                        <li>Контейнер для холодильника заморозки</li>
+                        <li>артикул 039384363</li>
+                        <li>цвет белый</li>
+                        <li><span class="weight">0.52</span> кг</li>
+                    </ul>
+                    <div class="price_block">
+                        <div>Цена</div>
+                        <input type="number" class="price" disabled value="500">
+                        <input type="number" class="discount_price" disabled>
+                    </div>
+                    <p class="delete">[x]</p>
+                </article>
+                <article>
+                    <img src="https://ir.ozone.ru/s3/multimedia-n/wc200/6423517451.jpg" alt="" class="img_article">
+                    <ul class="description">
+                        <li>Этажерка деревянная для книг вещей цветов игрушек</li>
+                        <li>артикул 229299733</li>
+                        <li>цвет коричневый</li>
+                        <li><span class="weight">1.5</span> кг</li>
+                    </ul>
+                    <div class="price_block">
+                        <div>Цена</div>
+                        <input type="number" class="price" disabled value="5200">
+                        <input type="number" class="discount_price" disabled>
+                    </div>
+                    <p class="delete">[x]</p>
+                </article>
+
+                <article>
+                    <img src="https://ir.ozone.ru/s3/multimedia-5/wc200/6385944665.jpg" alt="" class="img_article">
+                    <ul class="description">
+                        <li>Крючок настенный</li>
+                        <li>артикул 265252772</li>
+                        <li>цвет черный</li>
+                        <li><span class="weight">0.1</span> кг</li>
+                    </ul>
+                    <div class="price_block">
+                        <div>Цена</div>
+                        <input type="number" class="price" disabled value="250">
+                        <input type="number" class="discount_price" disabled>
+                    </div>
+                    <p class="delete">[x]</p>
+                </article>
+
+                <article>
+                    <img src="https://ir.ozone.ru/s3/multimedia-4/wc200/6439180276.jpg" alt="" class="img_article">
+                    <ul class="description">
+                        <li>Коврик придверный в прихожую</li>
+                        <li>артикул 927401078</li>
+                        <li>цвет белый</li>
+                        <li><span class="weight">0.2</span> кг</li>
+                    </ul>
+                    <div class="price_block">
+                        <div>Цена</div>
+                        <input type="number" class="price" disabled value="1330">
+                        <input type="number" class="discount_price" disabled>
+                    </div>
+                    <p class="delete">[x]</p>
+                </article>
+
+                <article>
+                    <img src="https://ir.ozone.ru/s3/multimedia-2/wc200/6404621210.jpg" alt="" class="img_article">
+                    <ul class="description">
+                        <li>Кулинарный коврик</li>
+                        <li>артикул 937902750</li>
+                        <li>цвет белый</li>
+                        <li><span class="weight">0.2</span> кг</li>
+                    </ul>
+                    <div class="price_block">
+                        <div>Цена</div>
+                        <input type="number" class="price" disabled value="840">
+                        <input type="number" class="discount_price" disabled>
+                    </div>
+                    <p class="delete">[x]</p>
+                </article>
+
+            </section>
+            <div class="total__calc-block">
+                <button class="btn-discount" id="discount">Применить скидку 20%</button>
+                <article id="total_block">
+                    <h3>Ваша корзина:</h3>
+                    <div class="all_products">Всего товаров(?/вес): <span>общая стоимотсь</span></div>
+                    <div class="all_discount"></div>
+                    <div class="total"></div>
+                </article>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="assets/script/index.js"></script>
+</body>
+
+</html>
