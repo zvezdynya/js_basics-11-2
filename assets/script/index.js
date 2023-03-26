@@ -39,6 +39,7 @@ const calcTotal = () => {
 
 function outTotal() {
     sum = 0;
+    weight = 0;
     allProducts.innerHTML = '';
     return allProducts.innerHTML = `Всего товаров(${firstPrices.length}/${backetWeight() + weightCurrency}): <span>${calcTotal()}${currency}</span>`;
 }
