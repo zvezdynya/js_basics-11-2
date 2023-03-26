@@ -63,6 +63,11 @@ ul.description li:first-child {
     color:rgba(39, 39, 39, 0.8);
 }
 
+#total_block > div {
+    text-decoration: underline;
+    padding: 5px 0;
+}
+
 article img {
     height: 150px;
 }
